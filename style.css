@@ -1,0 +1,366 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.background {
+    background-image: url(don.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: inherit;
+    float: inherit;
+
+    possition: absolute;
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgba(254, 254, 255, 0.817);
+    vertical-align: middle;
+    padding: 250px;
+}
+
+h4 {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+h1 {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+button {
+
+    background-color: #9de49fbe;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 40px;
+
+
+}
+
+.doller {
+
+    box-shadow: 0 4px 8px 0 rgba(41, 31, 118, 0.854);
+    transition: 0.3s;
+    width: 120px;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 15px 30px 0 rgba(240, 16, 16, 0.772);
+}
+
+
+
+.container {
+    padding: 10px 16px;
+
+}
+
+.card {
+    float: left;
+}
+
+.donat {
+
+    possition: absolute;
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgba(3, 2, 19, 0.575);
+    vertical-align: middle;
+    padding: 170px;
+}
+
+.now {
+    background-color: #d60000ee;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 40px;
+}
+
+.input {
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 28px;
+    color: rgba(19, 19, 38, 0.441);
+}
+
+.butt {
+    background-color: #47ff3669;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 40px;
+
+}
+
+.doll {
+    background-color: #0f3fa769;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 40px;
+}
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 35px;
+    text-align: left;
+    margin: 15px;
+
+}
+
+.card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+}
+
+.card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: -80px;
+    height: 40px;
+}
+
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+    color: white;
+}
+
+.title-black {
+    color: black;
+}
+
+@media all and (max-width: 500px) {
+    .card-list {
+
+        flex-direction: column;
+    }
+}
+
+.plan {
+    possition: absolute;
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgba(3, 2, 19, 0.575);
+    vertical-align: middle;
+    padding: 70px;
+
+
+
+}
+
+.plan1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.back {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.donar {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+/* .live-latter {
+    width: 50%;
+    float: left;
+}
+
+.resize {
+    width: 50%;
+    float: left;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.resize {
+    width: 200px;
+    height: auto;
+} */
+
+.live {
+    width: 80%;
+    float: left;
+    text-align: center;
+    padding: 100px;
+
+
+}
+
+.pic1 {
+    width: 50%;
+    height: auto;
+    float: left;
+    border-radius: 20%;
+}
+
+.live-latter {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.donator {
+    background-color: #ff0000a2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 40px;
+
+}
+
+.update {
+    possition: absolute;
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgba(3, 2, 19, 0.575);
+    vertical-align: middle;
+    padding: 70px;
+
+}
+
+.email {
+    background-color: #d4d73969;
+    border: none;
+    color: white;
+    padding: 40px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 40px;
+    text-align: center;
+}
+
+.mail {
+    width: 250px;
+    height: 50px;
+    border-style: outset;
+    border-radius: 10px;
+
+    color: rgb(255, 255, 255);
+    background-color: #8b8b8bbe;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    box-shadow: 40px;
+    border-radius: ;
+
+}
+
+.mail1 {
+
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold15px arial, sans-serif;
+    text-shadow: none;
+
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 35, 35);
+    text-align: center;
+    height: 50px;
+    padding: 5px;
+}
